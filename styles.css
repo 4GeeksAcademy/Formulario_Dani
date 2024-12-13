@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+    padding: 10px;
+    outline: 1px solid black;
+    margin-right: 400px;
+}
+
+h1{
+    outline: 1px solid black; 
+    padding: 6px;
+    /
+}
+
+h2{
+    
+    outline: 1px solid rosybrown; 
+    background-color: rgb(236, 216, 216);
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    border-radius: 5px;  
+    
+}
+
+.fila_1, .fila_2, .fila_3{
+display: flex;
+
+}
+
+.CARD, .NAME, .state, .postal_code, .city, .text_area, .CVC, .AMOUNT, .LAST_NAME{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    font-size: 18px;
+   
+}
+
+.fila_4 {
+margin-left: 450px;
+
+}
+
+.message{
+width: 400px;
+height: 100px;
+}
+
+span{
+ margin-left:  40px;
+ color: gray
+ 
+}
+
+.fila_5{
+margin-right: 500px;
+}  

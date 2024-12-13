@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Payment form example</h1>
+
+        <h2>Some fields are missing</h2>
+
+        <form class="fila_1">
+
+        <div class="CARD">
+            <label for= text> Card Number# </label> <br></br>
+            <input type="text" class="credit card" id="credit_card" minlength="4" maxlength="19" placeholder="#### #### #### ####" style="width:300px;">
+          </div>
+
+        <div class="CVC">
+            <label for= text> Cvc# </label> <br></br>
+            <input type="text" class="cvc" id="CVC" minlength="0" maxlength="4" placeholder="000" style="width:300px;">
+        </div>
+
+        <div class="AMOUNT">
+            <label for= text> Amount# </label> <br></br>
+            <input type="text" class="Amount" id="Amount" minlength="0" maxlength="4" placeholder="Amount" style="width:150px;">
+        </div>
+        </form>
+        <br></br>
+        <form class="fila_2">
+        <div class="NAME">
+            <label for= text> First Name </label> <br></br>
+            <input type="text" class="Name" id="Name" minlength="0" "  style="width:400px;">
+        </div>
+
+        <div class="LAST_NAME">
+            <label for= text> Last Name </label> <br></br>
+            <input type="text" class="Last_Name" id="Last_Name" minlength="0" "  style="width:400px;">
+        </div>
+       
+        </form>
+
+        <br></br>
+
+        <form class="fila_3">
+        <div class="city">
+            <label for= text> City </label> <br></br>
+            <input type="text" class="City" id="City" minlength="0" " style="width:400px;">
+        </div>
+
+        <div class="state">
+            <label for= text> State </label> <br></br>
+            <input type="text" class="Pick_state" id="Pick_state" minlength="0" " placeholder="Pick a state" style="width:200px;">
+        </div>
+
+        <div class="postal_code">
+            <label for= text> Last Name </label> <br></br>
+            <input type="text" class="Postal_code" id="Postal_code" minlength="0" " placeholder="Postal Code" style="width:150px;">
+        </div>
+       
+        </form>
+
+     <br></br>
+
+        <form class="fila_4"> 
+        <div class="text_area">
+        <label for= text> Message </label> <br></br>
+        <textarea class="message" aria-label="Message"></textarea>
+        </div>
+         <span class="notes">Add any notes here. </span>
+
+
+      <form class="fila_5">
+
+        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+        <label class="btn btn-secondary" for="option1">Visa</label>
+
+        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+        <label class="btn btn-secondary" for="option2">MasterCard</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+        <label class="btn btn-secondary" for="option4">PayPal</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+        <label class="btn btn-secondary" for="option4">Bizum</label>
+
+      </form>
+
+
+    </div>
+ 
+
+
+
+</body>
+</html>
