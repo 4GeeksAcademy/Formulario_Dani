@@ -1,4 +1,4 @@
-
+/*revisado*/
 body {
 
     width: 100vh;                  
@@ -33,13 +33,14 @@ body {
   }
 
   .send{
+    
     margin-top: -100px;
     margin-left: 700px;
     
   }
 
   .text{
-    width: 500px;
+    width: calc(100% - 450px);
     margin-top: 50px;
     margin-left: 450px;
     
